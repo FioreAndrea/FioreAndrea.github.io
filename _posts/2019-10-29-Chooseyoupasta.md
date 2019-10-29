@@ -2,75 +2,36 @@
 layout: post
 title: Famo presto 
 ---
+
+
+
 <style>
- article .begin-examples ~ h2,
-article .begin-examples ~ h2 + p {
-    width: 100%;
-    clear: both;
-}
-article .begin-examples ~ h3,
-article .begin-examples ~ p,
-article .begin-examples ~ .highlight {
-    width: 50%;
+#wrapper {
+  display: flex;
 }
 
-article .begin-examples ~ h3,
-article .begin-examples ~ p {
-    float: left;
-    box-sizing: border-box;
-    padding-right: 1rem;
-    clear: both;
+#left {
+  flex: 0 0 65%;
 }
 
-article .begin-examples ~ .highlight {
-    float: right;
-    clear: right;
-    margin-bottom: 1rem;
+#right {
+  flex: 1;
 }
-.end-examples {
-    clear: both;
-}
-article .end-examples ~ p,
-article .end-examples ~ h3,
-article .end-examples ~ .highlight {
-    width: 100%;
-    float: none;
-    clear: none;
+.icon {
+    width: 26px;
+    height: 26px;
+    position: relative;
+  /* Adjust these values accordingly */
+    top: 5px;
+    left: 2px;
 }
 </style>
 
-
-
-
-
-<div class="begin-examples"></div>
-
-### Main point about code block 1
-
-```
-
-```
-
-More text explaining code block 2
-
-```
-code block 2
-```
-
-
-<div class="end-examples"></div>
-
-
 <h2>Per non far svenare ogni Giovedì a Danilo, ho avuto la brillante idea creare una lista 💗</h2>   
 
-
-
-
-
-
-<div class="row">
-  <div class="column" style="">
-    <h2>CONDIMENTI:</h2>
+<div id="wrapper">
+    <div id="left">
+         <h2>CONDIMENTI:</h2>
     <ul>
         <li>Amatriciana</li>
         <li>gricia, </li>
@@ -78,7 +39,7 @@ code block 2
         <li>cacio e pepe</li>
         <li>Burro</li>
         <ul>
-            <li>Salvia</li>
+            <li>e Salvia</li>
         </ul>
         <li>Tartufo</li>
         <li>Passata di pomodori</li>
@@ -86,14 +47,13 @@ code block 2
         <li>Ragù</li>
         <li>Pesto al pistacchio</li>
     </ul>
-    
-  </div>
-  <div class="column" style="">
-    <h2>PASTE:</h2>
-    <ul>
-        <li>Fettuccine <img src="../images/spinach.svg"> 🌾 🌰</li>
-        <li>Tonnarelli </li>
-        <li>Gnocchi</li>
+    </div>
+    <div id="right">
+        <h2>PASTE:</h2>
+        <ul>
+        <li>Fettuccine <img class="icon" src="../images/spinach.svg" ><img class="icon" src="../images/castagna.svg" > <img class="icon" src="../images/grano.png" > <img class="icon" src="../images/flour.svg" >  </li>
+        <li>Tonnarelli  <img class="icon" src="../images/spinach.svg" ><img class="icon" src="../images/castagna.svg" > <img class="icon" src="../images/grano.png" > <img class="icon" src="../images/flour.svg" ></li>
+        <li>Gnocchi  <img class="icon" src="../images/spinach.svg" ><img class="icon" src="../images/castagna.svg" > <img class="icon" src="../images/grano.png" > <img class="icon" src="../images/flour.svg" > </li>
         <li>Ravioli</li>
         <ul>
             <li>Ricotta e spinaci</li>
@@ -104,5 +64,14 @@ code block 2
             <li>Nero di seppia</li>
         </ul>
     </ul>
-  </div>
+    </div>
 </div>
+
+<br/> <br/>
+
+ <img class="icon" src="../images/spinach.svg" > = Farina di spinaci <br/> 
+ <img class="icon" src="../images/castagna.svg" > = Farina di castagne <br/> 
+  <img class="icon" src="../images/grano.png" > = Farina di farro  <br/> 
+   <img class="icon" src="../images/flour.svg" > = farina integrale <br/>
+
+

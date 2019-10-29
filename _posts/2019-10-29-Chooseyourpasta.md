@@ -30,7 +30,7 @@ title: Famo presto
 <h2>Per non far svenare ogni Giovedì a Danilo, ho avuto la brillante idea creare una lista 💗</h2>   
 
 <div id="wrapper">
-    <div id="left">
+    <div id="right">
          <h2>CONDIMENTI:</h2>
     <ul>
         <li>Amatriciana</li>
@@ -48,7 +48,7 @@ title: Famo presto
         <li>Pesto al pistacchio</li>
     </ul>
     </div>
-    <div id="right">
+    <div id="left">
         <h2>PASTE:</h2>
         <ul>
         <li>Fettuccine <img class="icon" src="../images/spinach.svg" ><img class="icon" src="../images/castagna.svg" > <img class="icon" src="../images/grano.png" > <img class="icon" src="../images/flour.svg" >  </li>

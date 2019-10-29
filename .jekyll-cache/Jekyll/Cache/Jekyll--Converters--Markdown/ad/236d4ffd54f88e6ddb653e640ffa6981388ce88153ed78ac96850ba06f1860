@@ -1,0 +1,69 @@
+I"=<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+<h2>Per non far svenare ogni Giovedì a Danilo, ho avuto la brillante idea creare una lista 💗</h2>
+
+<div class="row">
+  <div class="column" style="">
+    <h2>CONDIMENTI:</h2>
+    <ul>
+        <li>Amatriciana</li>
+        <li>gricia, </li>
+        <li>carbonara</li>
+        <li>cacio e pepe</li>
+        <li>Burro</li>
+        <ul>
+            <li>Salvia</li>
+        </ul>
+        <li>Tartufo</li>
+        <li>Passata di pomodori</li>
+        <li>Pomodorini pachino</li>
+        <li>Ragù</li>
+        <li>Pesto al pistacchio</li>
+    </ul>
+    
+  </div>
+  <div class="column" style="">
+    <h2>PASTE:</h2>
+    <ul>
+        <li>Fettuccine <img src="//images/spinach.svg" alt="Kiwi standing on oval" /> 🌾 🌰</li>
+        <li>Tonnarelli </li>
+        <li>Gnocchi</li>
+        <li>Ravioli</li>
+        <ul>
+            <li>Ricotta e spinaci</li>
+            <li>Funghi e provol</li>
+            <li>Zucca</li>
+            <li>Fiori di zuzza e zucchine</li>
+            <li>Melanzane e provola</li>
+            <li>Nero di seppia</li>
+        </ul>
+    </ul>
+  </div>
+</div>
+:ET

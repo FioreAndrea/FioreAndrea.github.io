@@ -59,7 +59,7 @@ title: Famo presto
             <li>Ricotta e spinaci</li>
             <li>Funghi e provol</li>
             <li>Zucca</li>
-            <li>Fiori di zuzza e zucchine</li>
+            <li>Fiori di zucca e zucchine</li>
             <li>Melanzane e provola</li>
             <li>Nero di seppia</li>
         </ul>
